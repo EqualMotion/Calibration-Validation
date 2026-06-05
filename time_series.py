@@ -6,8 +6,8 @@ from typing import Self
 
 import numpy as np
 
-from .matrix import Matrix
-from .model import Imus, Model, Pose
+from imumocap import Matrix
+from imumocap.model import Imus, Model, Pose
 
 # Time series dataclasses are anchored by a 'seconds' array of uniformly-
 # spaced timestamps from which 'duration', 'sample_period', and 'sample_rate'
